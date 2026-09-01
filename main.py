@@ -10,5 +10,5 @@ def adding_numbers(e):
 def create_order(e): 
     prod1 = document.getElementById('item1')
     # Calculate
-    subtotal = float(prod1.value1) * prod1.checked
+    subtotal = float(prod1.value) * prod1.checked
     display(subtotal, target = 'output2')
