@@ -25,8 +25,18 @@
                <label for="item1" id="label1"> Coffee</label>
          <br>   
          
-         <label for="Milo"> Milo </label>
+
          <br>
+         
+         <input type="radio" id="normal" name="size" value="0">
+               <label for="normal"> Normal (+0) </label>
+
+        <input type="radio" id="huge" name="size" value="30">
+               <label for="huge"> Huge (+2) </label>
+         <br>
+         <button type="button" py-click="create_order">Order</button>
+         
+         <label for="Milo"> Milo </label>
          <select id="milo">
                 <option value="0"> Choose </option>
                 <option value="0"> Cold Milo </option>
@@ -34,13 +44,7 @@
                 <option value="0"> Ice Cream Milo </option>
          </select>
          <br>
-         <input type="radio" id="normal" name="size" value="0">
-               <label for="normal"> Normal (+0) </label>
-
-        <input type="radio" id="huge" name="size" value="30">
-               <label for="huge"> Huge (+2) </label>
-         <br>
-         <button type="button" py-click="create_order">Order</button>  
+         <button type="button" py-click="create_order">Order</button>
     </form>
  
     <div id="output"></div>
