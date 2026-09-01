@@ -15,3 +15,9 @@ def create_order(e):
     size_price = float(size.value)
     grandtotal = subtotal + size_price
     display(grandtotal, target = 'output2')
+
+def create_order2(e):
+    milo = document.getElementById('output3').innerHTML = "" #clears previous
+    milo = document.getElementById('milo')
+    milo_value = float(milo.value)
+    display(milo_value, target = 'output3')
