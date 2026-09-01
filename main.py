@@ -20,4 +20,4 @@ def create_order2(e):
     milo = document.getElementById('output3').innerHTML = "" #clears previous
     milo = document.getElementById('milo')
     milo_value = float(milo.value)
-    display(milo_value, target = 'output3')
+    display(f"Your order costs: ${milo_value:.2f}", target = 'output3')
