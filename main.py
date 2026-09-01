@@ -1,4 +1,4 @@
-from pyscript import document, pyscript
+from pyscript import document, display
 
 def adding_numbers(e):
     document.getElementById('output').innerHTML = "" # clears previous output
