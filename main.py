@@ -6,3 +6,9 @@ def adding_numbers(e):
     num2 = float(document.getElementById('aurafarm').value)  # get 2nd input
     result = num1 + num2 # use operator to compute
     display(result, target = 'output') #display result
+
+def create_order(e): 
+    prod1 = document.getElementById('item1')
+    # Calculate
+    subtotal = float(prod1.value1) * prod1.checked
+    display(subtotal, target = 'output2')
