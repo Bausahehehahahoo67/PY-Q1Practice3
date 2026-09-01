@@ -11,4 +11,7 @@ def create_order(e):
     prod1 = document.getElementById('item1')
     # Calculate
     subtotal = float(prod1.value) * prod1.checked
-    display(subtotal, target = 'output2')
+    size = document.querySelector('input[name="size"]:checked')
+    size_price = float(size.value)
+    grandtotal = subtotal + size_price
+    display(grandtotal, target = 'output2')
